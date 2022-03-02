@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Atha's Website </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  <!-- Menu Navigasi -->
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">Personal Website</a></div>
+      <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#pendidikan">Pendidikan</a></li>
+          <li><a href="#kuliah">Jadwal Kuliah</a></li>
+          <li><a href="#aktivitas">Aktivitas</a></li>
+          <li><a href="#hobi">Hobi</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+      </ul>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+<!-- Home -->
+ <section class="home" id="home">
+   <div class="home-content">
+     <div class="text">
+       <div class="text-one">Welcome!</div>
+       <div class="text-two">Nama saya <br> Athallah Bariq Hidayat </br></div>
+       <div class="text-three">Mahasiswa</div>
+       <div class="text-four">Asal Banyuwangi, Jawa Timur</div>
+     </div>
+     <div class="button">
+     </div>
+   </div>
+ </section>
+
+<!-- Riwayat Pendidikan -->
+<section class="pendidikan" id="pendidikan">
+  <div class="content">
+    <div class="title"><span>Riwayat Pendidikan</span></div>
+
+
+<!--Tabel Riwayat Pendidikan-->
+  <style>
+    .styled-table{
+  border-collapse: collapse;
+  margin: 50px 50px;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 1000px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  } 
+
+  .styled-table thead tr {
+  background-color: #3dae99;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #3dae99;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #3dae99;
+}
+  </style>
+
+
+    <table class="styled-table">
+      <thead>
+          <tr>
+              <th>Tingkat</th>
+              <th>Sekolah</th>
+              <th>Pelatihan</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>TK </td>
+              <td>TK Dharma Wanita Tembokrejo</td>
+          </tr>
+          <tr>
+              <td>SD</td>
+              <td>SDN 1 Kedungrejo</td>
+          </tr>
+          <tr>
+            <td>SMP</td>
+            <td>SMPN 1 Srono</td>
+        </tr>
+        <tr>
+          <td>SMA</td>
+          <td>SMAN 1 Genteng</td>
+      </tr>
+      <tr>
+        <td>Universitas</td>
+        <td>UPN Veteran Jawa Timur</td>
+        <td><br> LKMM-TD (2021) </br>
+          <br> Dibimbing.id UI/UX Design For Beginner (2021) </br>
+          <br> HaloMentorku UPNVJT UI/UX Design Class (2021) </br>
+        </td>
+    </tr>
+      </tbody>
+  </table>
+  </div>
+</section>
+
+
+<!--Jadwal Kuliah-->
+<section class="kuliah" id="kuliah">
+ <div class="content">
+   <div class="title"><span>Jadwal Kuliah</span></div>
+</section>
+
+
+<!--Tabel Jadwal Kuliah-->
+<style>
+  .styled-table2{
+border-collapse: collapse;
+margin: 0px 180px;
+font-size: 0.9em;
+font-family: sans-serif;
+min-width: 1000px;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+} 
+
+.styled-table2 thead tr {
+background-color: #3dae99;
+color: #ffffff;
+text-align: center;
+}
+
+.styled-table2 th,
+.styled-table2 td {
+  padding: 12px 15px;
+}
+
+.styled-table2 tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table2 tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table2 tbody tr:last-of-type {
+  border-bottom: 2px solid #3dae99;
+}
+
+.styled-table2 tbody tr.active-row {
+  font-weight: bold;
+  color: #3dae99;
+}
+</style>
+
+
+  <table class="styled-table2">
+    <thead>
+        <tr class ="active-row">
+            <th>No</th>
+            <th>Kelas</th>
+            <th>Mata Kuliah</th>
+            <th>Hari</th>
+            <th>Mulai - Selesai Jam</th>
+        </tr>
+    </thead>
+    <tbody>
+      <tr class ="active-row">
+        <th>1</th>
+        <th>E082</th>
+        <th>Sistem Enterprise</th>
+        <th>Senin</th>
+        <th>13:00 - 15:30</th>
+      </tr>
+      <tr class ="active-row">
+        <th>2</th>
+        <th>G526</th>
+        <th>Bahasa Indonesia</th>
+        <th>Selasa</th>
+        <th>07:01 - 08:39</th>
+    </tr>
+      <tr class ="active-row">
+        <th>3</th>
+        <th>E082</th>
+        <th>Administrasi Basis Data</th>
+        <th>Selasa</th>
+        <th>10:01 - 12:30</th>
+    </tr>
+        <tr class ="active-row">
+          <th>4</th>
+          <th>E082</th>
+          <th>Tata Kelola Teknologi Informasi</th>
+          <th>Selasa</th>
+          <th>13:00 - 15:30</th>
+      </tr>
+    <tr class ="active-row">
+      <th>5</th>
+      <th>E082</th>
+      <th>Analisis Desain Sistem Informasi</th>
+      <th>Rabu</th>
+      <th>13:00 - 15:30</th>
+  </tr>
+  <tr class ="active-row">
+    <th>6</th>
+    <th>E082</th>
+    <th>Keamanan Sistem Informasi</th>
+    <th>Kamis</th>
+    <th>07:30 - 10:00</th>
+</tr>
+<tr class ="active-row">
+  <th>7</th>
+  <th>E082</th>
+  <th>Pemrograman Web</th>
+  <th>Kamis</th>
+  <th>13:00 - 15:30</th>
+</tr>
+<tr class ="active-row">
+  <th>8</th>
+  <th>E082</th>
+  <th>E-Bisnis</th>
+  <th>Jumat</th>
+  <th>09:10 - 11:40</th>
+</tr>
+    </tbody>
+</table>
+</div>
+</section>
+
+<!-- Aktivitas -->
+ <section class="aktivitas" id="aktivitas">
+   <div class="content">
+     <div class="title"><span>Aktivitas Pengalaman Organisasi dan Kepanitiaan</span></div>
+     <div class="boxes">
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-camera-retro"></i>
+       </div>
+       <div class="topic">Menjadi Anggota Komunitas Fotografi di Banyuwangi yang bernama Street Activity (2016 - 2018) </div>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-people-arrows"></i>
+       </div>
+       <div class="topic">Menjadi Panitia Pada Kegiatan Ospek MOSAIK Fasilkom Divisi Senior Pendamping (2021) </div>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-paint-brush"></i>
+       </div>
+       <div class="topic">Menjadi Anggota Management UKM GLC (Global Language Club) <br> UPNVJT Pada Divisi <br> PRD (Public Relations Departement) </br> -(2022 - Sekarang) </div>
+     </div>
+   </div>
+ </section>
+
+<!-- Hobi -->
+<section class="hobi" id="hobi">
+  <div class="content">
+    <div class="title"><span>Hobi</span></div>
+    <div class="text">
+      <div class="topic"></div>
+      <p>Hobi saya yaitu mendengarkan musik, meononton film, fotografi, lalu saya juga suka dengan hal - hal yang berbau kreatif dan analisis. </p>
+    </div>
+  </div>
+</section>
+
+<!-- Footer-->
+<footer>
+</footer>
+</body>
+</html>
