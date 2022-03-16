@@ -30,7 +30,12 @@ function resetForm(){
 document.form1.reset();
 }
 
-//-->
+function ubah(){
+    document.write(document.lastModified);
+}
+ubah();
+
+//--!>
 
 </script>
 <div align="center">
@@ -45,7 +50,9 @@ document.form1.reset();
  <option value="bagi"> / (bagi)</option>
 </select>
 <input type="button" value="=" onClick="hitung()" />
-<input type="button" value="CLEAR" onClick="resetForm()" />
+<input type="button" value="CLEAR" onClick="resetForm()" /> 
+
+</script>
 </form>
 </body>
 </html>
