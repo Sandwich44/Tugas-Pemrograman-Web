@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title> Efek Fade </title>
+        <script src="/TugasJS2/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $("#fadeout").click(function() {
+                    $("#kotak").fadeOut("slow");
+                });
+                $("#fadein").click(function() {
+                    $("#kotak").fadeIn("slow");
+                });
+                $("#fadetime").click(function() {
+                    $("#kotak").fadeTo("slow", 0.3);
+                });
+            });
+        </script>
+        <style type="text/css">
+            #kotak {
+                width: 100px;
+                height: 100px;
+                background-color: yellow;
+            }
+        </style>
+    </head>
+    <body>
+    <h2> Efek Fade</h2>
+    <div id="kotak"></div>
+    <p> <button id="fadeout">Fade Out</button>
+        <button id="fadein">Fade In</button>
+        <button id="fadetime">Fade In 0.3 </button> </p>
+    </body>
+</html>

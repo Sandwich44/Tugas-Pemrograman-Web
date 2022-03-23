@@ -1,0 +1,53 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Double Click Merubah Warna </title>
+<script src="/TugasJS2/jquery-3.6.0.min.js"></script>
+<script>
+   $(document).ready(function() {
+    $("div").dblclick(function() {
+    $("#kotak1").dblclick(function() {
+    $("#kotak1").addClass("warna");
+    $("#kotak2").dblclick(function() {
+    $("#kotak2").addClass("warna2");
+    $("#kotak3").dblclick(function() {
+    $("#kotak3").addClass("warna3");
+    $("#kotak4").dblclick(function() {
+    $("#kotak4").addClass("warna4");
+    })
+    })
+    })
+    })
+    })
+   });
+   </script>
+   <style>
+     div {
+       width: 70px;
+       height: 70px;
+       background-color: yellow ;
+       border: 2px solid black;
+       padding: 0 10px;
+       float: left;
+       margin: 5px;
+       cursor: pointer;
+     }
+     .warna {
+     background-color: #1900ff;}
+     .warna2 {
+     background-color: #0e77c7;}
+     .warna3 {
+     background-color: #095f97;}
+     .warna4 {
+     background-color: #2cc4d5;}
+   </style>
+</head>
+<body>
+<h2> Merubah Warna Kotak </h2>
+<p> Klik dua kali untuk merubah warna kotak</p>
+<div id="kotak1"></div>
+<div id="kotak2"></div>
+<div id="kotak3"></div>
+<div id="kotak4"></div>
+</body>
+</html>
